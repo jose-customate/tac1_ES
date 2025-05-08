@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conecta Tu Backend - Customate</title> 
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true">
+    <meta name="description" content="Customate ayuda a las empresas a integrar sus sistemas backend con nuestra solución de atención al cliente impulsada por IA. Conéctate con Salesforce, Zendesk, Shopify y más.">
+  </head>
+  <body>
+    <!-- Top thin black banner with Language Dropdown -->
+    <div class="top-banner">
+      <div class="language-dropdown">
+        <button class="language-button">
+          <i class="fas fa-globe"></i> Español <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Deutsch</a>
+          <a href="#">English</a>
+          <a href="#">Español</a>
+          <a href="#">Hrvatski</a>
+          <a href="#">Norsk</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main navigation -->
+    <header class="header">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a href="https://www.customate.ai">
+              <img src="https://github.com/jose-customate/email_signature_logo/blob/main/0803cm.png?raw=true" alt="Customate" class="logo" />
+            </a>
+          </div>
+          
+          <div class="navbar-menu">
+            <div class="navbar-start">
+              <div class="navbar-item has-dropdown">
+                <a class="navbar-link">
+                  <span>Integraciones</span>
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="navbar-dropdown">
+                  <a href="https://www.customate.ai/integratebackend" class="dropdown-item">
+                    <i class="dropdown-icon backend-icon"></i>
+                    Backend
+                  </a>
+                  <a href="https://www.customate.ai/integratechannels" class="dropdown-item">
+                    <i class="dropdown-icon channels-icon"></i>
+                    Canales
+                  </a>
+                </div>
+              </div>
+              
+              <a href="https://www.customate.ai/pricing" class="navbar-item">Precios</a>
+              <a href="https://www.customate.ai/blog" class="navbar-item">Blog</a>
+            </div>
+            
+            <div class="navbar-end">
+              <a href="#" class="navbar-item btn-login">Iniciar Sesión</a>
+              <a href="#" class="navbar-item btn-primary">Registrarse</a>
+            </div>
+          </div>
+          
+          <div class="navbar-burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+<main>
+  <section class="terms-content">
+    <h1>Términos y Condiciones</h1>
+    
+    <h2>1. Introducción</h2>
+    
+    <h3>1.1 Propósito de los Términos y Condiciones</h3>
+    <p>Estos Términos y Condiciones (el "Acuerdo") rigen el uso del servicio proporcionado por Customated SSA UG (de ahora en adelante, "Customate") y describen los derechos y obligaciones de los usuarios y el proveedor del servicio. Al visitar nuestro sitio web, participar en consultas y acceder o utilizar nuestro servicio, usted acepta estar sujeto a estos términos.</p>
+    
+    <h3>1.2 Ámbito de Aplicación</h3>
+    <p>Estos términos se aplican a todos los usuarios que acceden, utilizan o interactúan con nuestro servicio, ya sean individuos, empresas o terceros. Rigen todas las actividades dentro de nuestra plataforma, incluidas las características, contenidos y herramientas asociadas.</p>
+    
+    <h2>2. Registro de Usuario y Cuentas</h2>
+    
+    <h3>2.1 Creación de Cuenta y Elegibilidad</h3>
+    <p>Para utilizar nuestro servicio, el Cliente debe crear una cuenta proporcionando información precisa y completa. El Cliente debe tener al menos 18 años o tener la capacidad legal para celebrar un contrato. Al registrarse, el Cliente confirma su elegibilidad para utilizar nuestro servicio.</p>
+    
+    <h3>2.2 Responsabilidades del Usuario</h3>
+    <p>Los Clientes son responsables de mantener la confidencialidad de sus credenciales de cuenta, incluidos su nombre de usuario y contraseña. El Cliente es el único responsable de la precisión, contenido y legalidad de todos los Datos del Cliente. El Cliente específicamente acepta no utilizar los Servicios para recopilar, almacenar, procesar o transmitir ninguna Información Personal Sensible. El Cliente acepta utilizar el servicio de manera responsable y ética, de conformidad con estos Términos y Condiciones y todas las leyes aplicables.</p>
+    
+    <h3>2.3 Seguridad de la Cuenta</h3>
+    <p>El Cliente debe implementar medidas apropiadas para proteger sus cuentas. El Cliente debe notificar al proveedor del servicio inmediatamente si se sospecha cualquier acceso no autorizado a su cuenta.</p>
+    
+    <h2>3. Pago</h2>
+    
+    <h3>3.1 Planes de Suscripción y Tarifas</h3>
+    <p>El Cliente acepta los planes de suscripción y las tarifas asociadas según lo especificado en el sitio web del servicio o acordado en un contrato separado, y establecido en el Formulario de Pedido aplicable. Además, el cliente puede tener un saldo de crédito si excede el límite de uso establecido en el plan de suscripción básico. Cualquier cambio en los precios será comunicado con anticipación y se facturará automáticamente, a menos que el cliente cancele la suscripción.</p>
+    
+    <h3>3.2 Métodos y Condiciones de Pago</h3>
+    <p>El Cliente puede pagar por el servicio utilizando los siguientes métodos de pago: tarjetas de crédito (con un aumento del 2% en el precio) y transferencias directas a cuentas bancarias. Los pagos deben realizarse por adelantado, a menos que se indique lo contrario en el contrato.</p>
+    <p>Si el Cliente está comprando los Servicios mediante tarjeta de crédito, tarjeta de débito o cualquier otro método de pago recurrente aceptado por Customate, se aplican los siguientes términos: Se autoriza la Facturación Recurrente, el Cliente paga cualquier tarifa de transacción extranjera y es responsable de cualquier cambio en la información del método de pago.</p>
+    <p>Pago Inválido: Si un pago no se liquida con éxito debido al vencimiento de un Método de Pago Recurrente, fondos insuficientes o de otra manera, el Cliente sigue siendo responsable de cualquier cantidad no remitida a Customate y Customate puede, a su exclusiva discreción, (i) facturar directamente al Cliente por el monto deficiente, (ii) continuar facturando el Método de Pago Recurrente una vez que haya sido actualizado por el Cliente (si corresponde) o (iii) terminar este Acuerdo.</p>
+    
+    <h3>3.3 Facturación e Impuestos</h3>
+    <p>El servicio emitirá facturas de acuerdo con el plan de suscripción del Usuario. Customate cobrará al Cliente la tarifa de suscripción mensual por adelantado de cada período de facturación. La factura del Cliente también incluirá cualquier tarifa por servicios únicos ordenados por el Cliente. Todas las tarifas excluyen los impuestos aplicables, que se cobrarán de acuerdo con las leyes y regulaciones locales.</p>
+    
+    <h3>3.4 Pagos Tardíos y Consecuencias</h3>
+    <p>Si el Cliente no realiza el pago a tiempo, Customate se reserva el derecho de suspender o terminar el acceso al servicio.</p>
+    
+    <h3>3.5 Plazo de Suscripción y Renovaciones</h3>
+    <p><strong>a) Plazo de Suscripción Mensual.</strong> Para una suscripción de mes a mes, el Plazo de Suscripción se renovará automáticamente mensualmente. Cada mes contractual sucesivo se considerará un "plazo de renovación". El Cliente puede cancelar una suscripción de mes a mes en cualquier momento yendo a la página "Configuración" en el Panel, y la fecha efectiva de terminación será el último día del plazo de renovación actual.</p>
+    <p><strong>b) Plazo de Suscripción Anual o Plurianual.</strong> Para una suscripción anual o plurianual, el Plazo de Suscripción inicial se establece en el Formulario de Pedido. El Plazo de Suscripción se renovará automáticamente por períodos adicionales y sucesivos de doce meses (cada uno, un "plazo de renovación"), a menos que cualquiera de las partes notifique por escrito a la otra su intención de no renovar al menos treinta (30) días antes del vencimiento del Plazo de Suscripción inicial o del plazo de renovación actual. El Cliente enviará notificación por escrito de la intención de no renovar a contact@customate.ai</p>
+    
+    <h2>4. Uso del Servicio</h2>
+    
+    <h3>4.1 Uso Permitido</h3>
+    <p>El Cliente puede acceder y utilizar el servicio únicamente para su propósito previsto. El uso y acceso a los Servicios está permitido solo para Usuarios Permitidos. Este es un acuerdo de suscripción para el acceso y uso de los Servicios. El Cliente reconoce que está obteniendo solo un derecho limitado a los Servicios y que no se le están transmitiendo derechos de propiedad bajo este Acuerdo. El uso debe cumplir con las leyes aplicables, acuerdos contractuales y estos Términos y Condiciones.</p>
+    
+    <h3>4.2 Actividades Prohibidas</h3>
+    <p>El Cliente y todos los usuarios tienen estrictamente prohibido:</p>
+    <ul>
+      <li>Utilizar el servicio para fines ilícitos, fraudulentos o engañosos;</li>
+      <li>Manipular o intentar explotar el sistema de IA más allá de su función prevista.</li>
+      <li>Implementar el chatbot de manera que promueva el discurso de odio, la violencia o contenido ilegal.</li>
+      <li>Exceder las políticas de uso justo que pueden afectar la estabilidad del sistema o degradar el servicio para otros usuarios.</li>
+    </ul>
+    
+    <h3>4.3 Límite de Uso</h3>
+    <p>El servicio puede imponer límites de uso, incluidos, entre otros, el número de interacciones, solicitudes de API o sesiones de chatbot.</p>
+    
+    <h3>4.4 Comentarios</h3>
+    <p>El Cliente siempre puede enviar Comentarios a Customate. Customate puede usar o explotar libremente los Comentarios en relación con los Servicios y la Tecnología de la empresa. El Cliente por la presente otorga a Customate una licencia perpetua, no exclusiva, transferible, irrevocable, mundial y libre de regalías (con derechos de sublicencia) para hacer, usar, vender, ofrecer vender, reproducir, modificar, distribuir, hacer disponible, mostrar y realizar públicamente, divulgar y explotar comercialmente de otro modo los Comentarios.</p>
+    
+    <h3>4.5 Uso del Nombre y Logo del Cliente</h3>
+    <p>Al convertirse en cliente de Customate, el Cliente otorga el derecho de mostrar su nombre de empresa y logo en el sitio web de Customate, páginas de destino y materiales de marketing para indicar nuestra relación comercial. Este uso es solo para fines promocionales y no implica ningún respaldo. El Cliente puede optar por no participar, proporcionando una solicitud por escrito a jose@customate.ai.</p>
+    
+    <h3>4.6 Propiedad del Contenido del Sitio Web</h3>
+    <p>Todo el texto, imágenes, logotipos, marcas registradas y otro contenido en el sitio web son propiedad intelectual del proveedor del servicio o de sus licenciantes, a menos que se indique lo contrario. La reproducción, distribución o modificación no autorizada de cualquier material está estrictamente prohibida sin el consentimiento previo por escrito.</p>
+    
+    <h2>5. Contenido de Terceros y Licencias</h2>
+    
+    <h3>5.1 Uso de Contenido de Terceros</h3>
+    <p>El servicio puede integrar o proporcionar acceso a contenido de terceros, incluido software, APIs, fuentes de datos u otros servicios externos. El Usuario reconoce que dicho contenido de terceros está sujeto a los términos y condiciones y acuerdos de licencia respectivos de los proveedores.</p>
+    
+    <h3>5.2 Licencias y Propiedad Intelectual</h3>
+    <p>Todo el contenido de terceros utilizado dentro del servicio sigue siendo propiedad de sus respectivos dueños. Al Cliente se le otorga una licencia no exclusiva e intransferible para usar dicho contenido estrictamente dentro del alcance de la funcionalidad prevista del servicio. Cualquier reproducción, distribución o modificación no autorizada de contenido de terceros está prohibida.</p>
+    
+    <h3>5.3 Descargo de Responsabilidad</h3>
+    <p>Customate no asume ninguna responsabilidad por la precisión, disponibilidad o rendimiento del contenido de terceros. Cualquier interrupción, error o pérdida resultante de integraciones de terceros está más allá del control del proveedor. El Cliente y todos los usuarios acuerdan que el proveedor no será responsable por daños derivados del contenido de terceros, incluidas vulnerabilidades de seguridad, filtraciones de datos o disputas de licencias.</p>
+    
+    <h2>6. Responsabilidad y Garantías</h2>
+    
+    <h3>6.1 Garantías del Servicio y Limitaciones</h3>
+    <p>El servicio se proporciona "tal cual" y "según disponibilidad". Si bien el proveedor se esfuerza por una alta disponibilidad y fiabilidad, no se hacen garantías con respecto a la operación ininterrumpida o libre de errores. El proveedor no garantiza que el servicio cumplirá con todos los requisitos específicos o funcionará sin interrupciones, errores o vulnerabilidades. Customate no tendrá responsabilidad por errores en la transmisión, acceso no autorizado de terceros u otras causas más allá del control de Customate.</p>
+    
+    <h3>6.2 Responsabilidad por Errores o Caídas</h3>
+    <p>El proveedor no es responsable por la indisponibilidad temporal, errores o interrupciones del servicio debido a mantenimiento, fallos técnicos, ciberataques o eventos de fuerza mayor.</p>
+    
+    <h3>6.3 Otras Responsabilidades de Customate</h3>
+    <p>El proveedor solo es responsable por daños causados por negligencia grave o mala conducta intencional, según lo permitido por la ley aplicable. Se excluye la responsabilidad por daños indirectos, incidentales o consecuentes, como pérdida de beneficios, pérdida de datos o interrupciones comerciales. El Cliente asume toda la responsabilidad de asegurar que el uso del servicio cumpla con las regulaciones aplicables y requisitos comerciales.</p>
+    <p>El Cliente no resolverá ninguna reclamación que involucre a Customate sin el consentimiento previo por escrito de Customate, a menos que la resolución libere completa e incondicionalmente a Customate y no requiera que Customate pague ninguna cantidad, tome ninguna acción o admita ninguna responsabilidad.</p>
+    
+    <h3>6.4 Responsabilidades del Cliente</h3>
+    <p>El Cliente indemnizará, defenderá y mantendrá indemne a Customate de y contra todas y cada una de las reclamaciones de terceros (incluidas, sin limitación, Personas), costos, daños, pérdidas, responsabilidades y gastos (incluidos honorarios y costos razonables de abogados) que surjan de o estén relacionados con cualquier Dato del Cliente, el uso por parte del Cliente de una Aplicación de Mensajería de Terceros, Plataforma de Terceros o incumplimiento o supuesto incumplimiento por parte del Cliente de la Sección 2.2.</p>
+    
+    <h2>7. Terminación y Cancelación</h2>
+    
+    <h3>7.1 Cancelación por el Usuario</h3>
+    <p>El Cliente puede cancelar su suscripción o cuenta en cualquier momento siguiendo los procedimientos de cancelación proporcionados en la plataforma de servicio. La cancelación entrará en vigor al final del período de facturación actual, a menos que se indique lo contrario. El Cliente seguirá siendo responsable de cualquier tarifa incurrida hasta la fecha de cancelación.</p>
+    
+    <h3>7.2 Terminación por el Proveedor</h3>
+    <p>El proveedor se reserva el derecho de terminar o suspender el acceso del Usuario al servicio en caso de incumplimiento de estos Términos y Condiciones, incluidos, entre otros, el uso no autorizado, la falta de pagos oportunos o la violación de las leyes aplicables, o por cualquier otra razón, exclusivamente a discreción de la empresa. El proveedor puede proporcionar aviso previo cuando sea posible, pero la terminación inmediata puede ocurrir en casos de violaciones graves.</p>
+    
+    <h3>7.3 Consecuencias de la Terminación</h3>
+    <p>Tras la terminación o cancelación de la cuenta del Cliente, se revocará el acceso al servicio y todos los datos asociados con la cuenta pueden ser eliminados, sujetos a cualquier requisito legal o contractual de retención de datos. El Cliente seguirá siendo responsable de cualquier pago pendiente en el momento de la terminación.</p>
+    
+    <h2>8. Otros elementos</h2>
+    <p>Las políticas sobre Protección de Datos y Privacidad, Seguridad y el estatus legal corporativo de Customate se comparten en el sitio web: www.customate.ai</p>
+    
+    <h2>9. Modificaciones a los Términos</h2>
+    
+    <h3>9.1 Derecho a Modificar los Términos</h3>
+    <p>El proveedor se reserva el derecho de modificar, actualizar o enmendar estos Términos y Condiciones en cualquier momento. Estos cambios pueden realizarse para reflejar cambios en la ley, mejoras del servicio o por otras razones operativas.</p>
+    
+    <h3>9.2 Notificación de Cambios</h3>
+    <p>El Cliente será notificado de cualquier cambio material en los Términos y Condiciones por correo electrónico o mediante un aviso en la plataforma de servicio. Las notificaciones se enviarán con anticipación cuando sea posible, y cualquier actualización se indicará claramente con la fecha efectiva de los cambios.</p>
+    
+    <h3>9.3 Aceptación de Cambios por el Usuario</h3>
+    <p>El uso continuado del servicio después de la notificación de cambios se considerará como la aceptación por parte del Usuario de los Términos y Condiciones actualizados. Si el Cliente no está de acuerdo con los cambios, puede cancelar su cuenta según lo establecido en la Sección 7 (Terminación y Cancelación).</p>
+    
+    <h2>10. Resolución de Disputas y Ley Aplicable</h2>
+    
+    <h3>10.1 Proceso de Resolución de Quejas</h3>
+    <p>En caso de una disputa o queja, el Usuario debe primero contactar al equipo de atención al cliente del proveedor para intentar resolver el problema amigablemente. El proveedor hará esfuerzos razonables para abordar las preocupaciones del Usuario con prontitud y de acuerdo con las leyes aplicables. Si la disputa no puede resolverse mediante comunicación directa, el Cliente puede buscar mediación o resolución alternativa de disputas (ADR) de acuerdo con las regulaciones aplicables.</p>
+    
+    <h3>10.2 Ley Aplicable</h3>
+    <p>Estos Términos y Condiciones se rigen e interpretan de acuerdo con las leyes de Alemania, sin tener en cuenta sus disposiciones sobre conflictos de leyes.</p>
+    
+    <h3>10.3 Jurisdicción</h3>
+    <p>Cualquier disputa que no pueda resolverse mediante comunicación informal o ADR estará sujeta a la jurisdicción exclusiva de los tribunales competentes en Alemania.</p>
+    
+    <h2>11. Ausencia de una Cláusula Miscelánea</h2>
+    <p>Este acuerdo no incluye una sección separada de "Misceláneos", ya que tales disposiciones están inherentemente incorporadas dentro de la naturaleza de cualquier contrato. Los principios típicamente cubiertos bajo una cláusula miscelánea—como divisibilidad, renuncia y aplicabilidad—son aspectos fundamentales de la interpretación y aplicación contractual, haciendo innecesaria su reafirmación explícita. Su omisión no disminuye su validez o efecto, sino que reconoce la autosuficiencia del contrato como instrumento legal.</p>
+    
+    <h2>12. Información de Contacto</h2>
+    
+    <h3>12.1 Soporte y Consultas</h3>
+    <p>Para cualquier pregunta, inquietud o solicitud de soporte, el Usuario puede contactar a nuestro equipo de atención al cliente a través de los siguientes canales:</p>
+    <ul>
+      <li>Correo electrónico: admin (a,t) customate.ai </li>
+      <li>Chat de Customate: Disponible en la plataforma de servicio</li>
+    </ul>
+    <p>El soporte está disponible durante horas laborables, y nos esforzamos por responder a las consultas lo más rápido posible.</p>
+    
+    <h3>12.2 Reportar Problemas</h3>
+    <p>Si el Usuario encuentra algún problema técnico, preocupación de seguridad o violaciones de los Términos y Condiciones, debe reportarlos al proveedor inmediatamente. Los informes pueden ser enviados a través de:</p>
+    <ul>
+      <li>Correo electrónico: admin (a,t) customate.ai </li>
+    </ul>
+    <p>El proveedor investigará todos los informes y tomará las acciones apropiadas basadas en la severidad y naturaleza del problema.</p>
+  </section>
+</main>
+
+  </body>
+</html>
